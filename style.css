@@ -2,7 +2,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 * {
-   outline: 1px red solid; 
+   /*outline: 1px red solid; */
    font-family: 'Open Sans', arial, sans-serif;
 }
 
@@ -52,6 +52,7 @@ form {
 footer {
     background: #4A6770;
     padding: 1em 0;
+    margin-top: 2em;
 }
 
 footer p {
@@ -60,17 +61,9 @@ footer p {
     margin: 0;
 }
 
-/*hr:before, hr:after {
-position: absolute;
-content: '';
-height: 1em;
-top: 0;
-left: 0;
-right: 0;
-}*/
-
 .rainbow-line {
     display: block;
+    margin-bottom: 2em;
     width: 100%;
     height: 1em;
     background: linear-gradient(90deg, #1abc9c 15%, #2ecc71 15%, #2ecc71 12%, #3498db 12%, #3498db 32%, #9b59b6 32%, #9b59b6 35%, #34495e 35%, #34495e 55%, #f1c40f 55%, #f1c40f 59%, #e67e22 59%, #e67e22 63%, #e74c3c 63%, #e74c3c 82%, #ecf0f1 82%, #ecf0f1 92%, #95a5a6 92%);
@@ -143,6 +136,12 @@ header {
     margin: 0 auto;
 }
 
+
+
+/* ==========================================================================
+   Home: Categories
+   ========================================================================== */
+
 .category-title {
     margin-top: 20px;
     margin-left: 1.5%;
@@ -161,16 +160,80 @@ header {
     background-color: gray;
     margin: 1% auto;
     display: flex;
-    /*justify-content: center;*/
     align-items: center;
+    border: 10px solid #4A6770;
 }
 
 .category h3 {
     width: 100%;
     text-align: center;
+    color: white;
+    text-shadow: 3px 3px 0px #000;
 }
 
+#air {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url(img/categories/air.jpg);
+    background-size: cover;
+}
 
+#customer-service {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url(img/categories/customer-service.jpg);
+    background-size: cover;
+}
+
+#fabrics {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url(img/categories/fabric.jpg);
+    background-size: cover;
+}
+
+#waste {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url(img/categories/waste.jpg);
+    background-size: cover;
+}
+
+#heads-up {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url(img/categories/heads-up.jpg);
+    background-size: cover;
+}
+
+#alerts {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url(img/categories/safety.jpg);
+    background-size: cover;
+}
+
+#laundry {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url(img/categories/laundry.jpg);
+    background-size: cover;
+}
+
+#marketing {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url(img/categories/marketing.jpg);
+    background-size: cover;
+}
 
 
 /* ==========================================================================
