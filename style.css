@@ -1,0 +1,201 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+* {
+   outline: 1px red solid; 
+   font-family: 'Open Sans', arial, sans-serif;
+}
+
+body {
+    background: black url(img/fabric.png) repeat;
+}
+
+h1, h2, h3, h4, h6, p, ul, li {
+    margin : 0;
+    padding: 0;
+}
+
+
+
+a:hover, a:visited, a:link {
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+.quicksand-font {
+    font-family: 'Quicksand', arial, sans-serif;
+}
+
+form {
+    margin-top: 25px;
+}
+
+.form-control {
+    display: inline-block;
+    width: calc(100% - 74px);
+}
+
+.search-box {
+    display: inline-block;
+    width: calc(100% - 74px);
+}
+
+.search-box-button {
+    width: 70px
+}
+
+footer {
+    background: #4A6770;
+    padding: 1em 0;
+}
+
+footer p {
+    font-family: 'Quicksand', arial, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+/*hr:before, hr:after {
+position: absolute;
+content: '';
+height: 1em;
+top: 0;
+left: 0;
+right: 0;
+}*/
+
+.rainbow-line {
+    display: block;
+    width: 100%;
+    height: 1em;
+    background: linear-gradient(90deg, #1abc9c 15%, #2ecc71 15%, #2ecc71 12%, #3498db 12%, #3498db 32%, #9b59b6 32%, #9b59b6 35%, #34495e 35%, #34495e 55%, #f1c40f 55%, #f1c40f 59%, #e67e22 59%, #e67e22 63%, #e74c3c 63%, #e74c3c 82%, #ecf0f1 82%, #ecf0f1 92%, #95a5a6 92%);
+}
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+header {
+    text-align: center;
+    background: #0c0d0d;
+}
+
+.logo-main {
+    padding-top: 10px;
+    color: #015288;
+}
+
+.logo-small {
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+/* ==========================================================================
+   Home: '/' custom styles
+   ========================================================================== */
+
+.jumbotron-copy {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.jumbotron form div {
+    width: 100%;
+}
+
+.jumbotron {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url(img/background.jpg);
+    background-size: cover;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    color: #fff;
+}
+
+#jumbotron-content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1em;
+    align-self: center;
+}
+
+.description-icon {
+    max-width: 100px;
+}
+
+.container-fluid {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.category-title {
+    margin-top: 20px;
+    margin-left: 1.5%;
+    margin-bottom: 10px;
+}
+
+.categories {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.category {
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    margin: 1% auto;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.category h3 {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+
+/* REPLACES BOOTSTRAP DEFAULTS */
+@media (min-width: 768px) {
+    .form-inline .form-control {
+        display: inline-block;
+        width: calc(100% - 74px);
+    }
+
+    .search-box-button {
+        width: 70px;
+    }
+
+    .description-icon {
+        max-width: 250px;
+    } 
+}
