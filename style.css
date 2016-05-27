@@ -132,8 +132,8 @@ header {
 }
 
 .container-fluid {
-    max-width: 1280px;
-    margin: 0 auto;
+    /*max-width: 1280px;*/
+    /*margin: 0 auto;*/
 }
 
 
@@ -151,18 +151,37 @@ header {
 .categories {
     display: flex;
     box-sizing: border-box;
+    
     flex-wrap: wrap;
+    
+    align-content: flex-start;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+   
 }
 
 .category {
     width: 300px;
     height: 200px;
+    margin-right: 15px;
     background-color: gray;
-    margin: 1% auto;
+    
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 10px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
     border: 10px solid #4A6770;
 }
+
+
+
+/*.category:last-of-type {
+    margin-right: auto;
+}*/
 
 .category h3 {
     width: 100%;
@@ -171,13 +190,6 @@ header {
     text-shadow: 3px 3px 0px #000;
 }
 
-#air {
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.1)
-    ), url(img/categories/air.jpg);
-    background-size: cover;
-}
 
 #customer-service {
     background: linear-gradient(
@@ -195,13 +207,6 @@ header {
     background-size: cover;
 }
 
-#waste {
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.1)
-    ), url(img/categories/waste.jpg);
-    background-size: cover;
-}
 
 #heads-up {
     background: linear-gradient(
@@ -211,13 +216,6 @@ header {
     background-size: cover;
 }
 
-#alerts {
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.1)
-    ), url(img/categories/safety.jpg);
-    background-size: cover;
-}
 
 #laundry {
     background: linear-gradient(
@@ -232,6 +230,54 @@ header {
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.1)
     ), url(img/categories/marketing.jpg);
+    background-size: cover;
+}
+
+#vogue {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url(img/categories/vogue.jpg);
+    background-size: cover;
+}
+
+#regulatory {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url(img/categories/capitol-building.jpg);
+    background-size: cover;
+}
+
+#research {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url(img/categories/research.jpg);
+    background-size: cover;
+}
+
+#tabs {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url(img/categories/tabs.jpg);
+    background-size: cover;
+}
+
+#toi {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url(img/categories/toi.jpg);
+    background-size: cover;
+}
+
+#wet-cleaning {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url(img/categories/wet-cleaning.jpg);
     background-size: cover;
 }
 
