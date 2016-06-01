@@ -35,10 +35,6 @@ form {
     margin-top: 25px;
 }
 
-.form-control {
-    display: inline-block;
-    width: calc(100% - 74px);
-}
 
 .search-box {
     display: inline-block;
@@ -47,18 +43,6 @@ form {
 
 .search-box-button {
     width: 70px
-}
-
-footer {
-    background: #4A6770;
-    padding: 1em 0;
-    margin-top: 2em;
-}
-
-footer p {
-    font-family: 'Quicksand', arial, sans-serif;
-    color: white;
-    margin: 0;
 }
 
 .rainbow-line {
@@ -81,13 +65,30 @@ header {
 
 .logo-main {
     padding-top: 10px;
-    color: #015288;
+    /*color: #015288;*/
+    color: #8BADD9;
 }
 
 .logo-small {
     font-size: 1.2em;
     padding-bottom: 10px;
     color: rgb(255, 255, 255);
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer {
+    background: #4A6770;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+footer p {
+    font-family: 'Quicksand', arial, sans-serif;
+    color: white;
+    margin: 0;
 }
 
 /* ==========================================================================
@@ -131,11 +132,6 @@ header {
     max-width: 100px;
 }
 
-.container-fluid {
-    /*max-width: 1280px;*/
-    /*margin: 0 auto;*/
-}
-
 
 
 /* ==========================================================================
@@ -176,12 +172,6 @@ header {
     align-items: center;
     border: 10px solid #4A6770;
 }
-
-
-
-/*.category:last-of-type {
-    margin-right: auto;
-}*/
 
 .category h3 {
     width: 100%;
