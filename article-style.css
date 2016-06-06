@@ -1,0 +1,100 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+* {
+   /* outline: 1px red solid; */
+   font-family: 'Open Sans', arial, sans-serif;
+}
+
+
+
+#main {
+    position: relative;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h6, p, ul, li {
+    margin : 0;
+    padding: 0;
+}
+
+
+
+a:hover, a:visited, a:link {
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+.quicksand-font {
+    font-family: 'Quicksand', arial, sans-serif;
+}
+
+.rainbow-line {
+    display: block;
+    margin-bottom: 2em;
+    width: 100%;
+    height: 1em;
+    background: linear-gradient(90deg, #1abc9c 15%, #2ecc71 15%, #2ecc71 12%, #3498db 12%, #3498db 32%, #9b59b6 32%, #9b59b6 35%, #34495e 35%, #34495e 55%, #f1c40f 55%, #f1c40f 59%, #e67e22 59%, #e67e22 63%, #e74c3c 63%, #e74c3c 82%, #ecf0f1 82%, #ecf0f1 92%, #95a5a6 92%);
+}
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+header {
+    text-align: center;
+    background: #0c0d0d;
+}
+
+.logo-main {
+    padding-top: 10px;
+    /*color: #015288;*/
+    color: #8BADD9;
+}
+
+.logo-small {
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer {
+    background: #4A6770;
+    padding: 1em 0;
+    margin-top: 2em;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: block;
+}
+
+footer p {
+    font-family: 'Quicksand', arial, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+/* ==========================================================================
+   Article
+   ========================================================================== */
+article {
+    max-width: 1280px;
+    margin: 20px auto;
+    padding: 0 5%;
+}
+
+
+.tags {
+    display: none;
+}

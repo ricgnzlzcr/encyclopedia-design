@@ -158,7 +158,7 @@ footer p {
     margin-bottom: 10px;
 }
 
-.categories {
+.categories-container {
     display: flex;
     box-sizing: border-box;
     
