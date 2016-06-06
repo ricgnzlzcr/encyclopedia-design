@@ -10,6 +10,7 @@ body {
     background: black url(img/fabric.png) repeat;
 }
 
+
 #main {
     position: relative;
     min-height: 100vh;
@@ -302,17 +303,35 @@ footer p {
     border-bottom: 1px solid gray;
     padding: 10px 2%;
     list-style-type: none;
+    background: #FFF;
 }
-
 
 .article:nth-of-type(1) {
     border-top: 1px solid gray;
 }
 
+.article:last-of-type {
+    margin-bottom: 100px;
+}
+
+.article p {
+    padding: 5px 0;
+}
+
+.article-info {
+    padding-top: 5px;
+}
+
+.article-label {
+    color: #4A6770;
+}
+
+
 
 /* ==========================================================================
    Helper Classes
    ========================================================================== */
+
 
 
 
@@ -341,4 +360,5 @@ footer p {
     .description-icon {
         max-width: 250px;
     } 
+
 }

@@ -7,8 +7,8 @@ function truncateArticles() {
     var articles = $('.truncate');
     
     for (var i = 0; i < articles.length; i++) {
-        var newPara = shortenParagraph($(articles[i]).text(), 250);
-        $(articles[i]).text(newPara);
+        var newPara = shortenParagraph($(articles[i]).text(), 350);
+        $(articles[i]).text(newPara).addClass('bold');
     }
 }
 
